@@ -177,7 +177,7 @@ function update(){
 function render(){
     
     // clear the canvas
-    drawRect(0, 0, canvas.width, canvas.height, "#000");
+    drawRect(0, 0, canvas.width, canvas.height, "#7CFC00");
     
     // draw the user score to the left
     drawText(user.score,canvas.width/4,canvas.height/5);
